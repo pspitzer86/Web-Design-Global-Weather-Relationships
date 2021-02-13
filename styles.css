@@ -37,6 +37,12 @@ body{
   margin-bottom: 20px;
 }
 
+.big_pic{
+  width: 700px;
+  height: 500px;
+  margin-left: 120px;
+}
+
 .pic:hover{
   border: 5px solid rebeccapurple
 }
