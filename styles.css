@@ -27,9 +27,12 @@
 
 body{
   background: rgb(246,232,23);
-  background: radial-gradient(circle, rgba(246,232,23,1) 0%, rgba(71,213,237,1) 35%, rgba(63,14,199,1) 100%);
+  background: linear-gradient(261deg, rgba(246,232,23,1) 0%, rgba(71,213,237,1) 35%, rgba(63,14,199,1) 100%);
 }
 
-.row{
-  background-color: red;
+.pic{
+  width: 220px;
+  height: 175px;
+  padding-right: 15px;
+  padding-bottom: 30px;
 }
