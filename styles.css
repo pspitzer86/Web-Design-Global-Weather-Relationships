@@ -68,3 +68,17 @@ body{
 .summary{
   font-size: 20px;
 }
+
+.comp_pic{
+  width: 80%;
+  height: auto;
+  margin-left: 80px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.9);
+  display:block;
+}
+
+.comp_pic:hover{
+  border: 5px solid rebeccapurple
+}
