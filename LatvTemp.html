@@ -45,29 +45,29 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
-      <h1 class="text-lg-center">Latitude vs. Max Temperature</h1>
+      <h1 class="text-sm-center">Latitude vs. Max Temperature</h1>
       <a><img class ="big_pic" src="visualizations\LatvTemp_plot_Jan-09-2021.png" alt="Lat vs Max Temp"></a>
-      <p class="summary">Using OpenWeather API, a study was conducted on over 500 random cities across the globe.
-        The latitudes of these cities were plotted against various weather data pulled from the API including temperature,
-        humdity, cloudiness and wind speed.  The plots created from the data for this study are available for you to view
-        individually and in comparison to each other.
-        Can you spot any trends?  What conclusions can you make? <br><br>
-        Interested to see what cities were used in this study?  A list of the 500+ random cities
-        pulled from the API is also available to view.  See if you can find your hometown or your family and friends.
-        Based on this study, share what you've learned about weather in those locations!
+      <p class="summary"><br>The scatter plot for City Latitude vs Max Temperature shows that the highest temperatures recorded are close to the equator and decreases gradually as we move north or south of the equator.
+        The reason for the increase in temperature near the equator is due to the tilt of the Earth allowing
+        the Sun's rays to hit the Earth most directly around the equator.
+        The shape is reminicient of part of a normal distribution bell curve.
       </p>
     </div>
-    <div class="col-sm-4">
-      <h1 class="text-lg-center">Visualizations</h1>
+    <div class="col-sm-4 side">
+      <h1 class="text-sm-center">Visualizations</h1>
       <div class="row">
-        <div class="col">
+        <div class="col-md-12 col-lg-6">
           <a href="LatvTemp.html"><img class = "pic" src="visualizations\LatvTemp_plot_Jan-09-2021.png" alt="Lat vs Max Temp"></a>
+        </div>
+        <div class="col-md-12 col-lg-6">
           <a href="LatvHumid.html"><img class = "pic" src="visualizations\LatvHumid_plot_Jan-09-2021.png" alt="Lat vs Humidity"></a>
         </div>
       </div>
       <div class = "row">
-        <div class = "col">
+        <div class = "col-md-12 col-lg-6">
           <a href="LatvCloud.html"><img class = "pic" src="visualizations\LatvClouds_plot_Jan-09-2021.png" alt="Lat vs Cloudiness"></a>
+        </div>
+        <div class="col-md-12 col-lg-6">
           <a href="LatvWind.html"><img class = "pic" src="visualizations\LatvWinds_plot_Jan-09-2021.png" alt="Lat vs Wind Speed"></a>
         </div>
       </div>
