@@ -50,8 +50,36 @@ body{
   width: 80%;
   display:block;
   margin-left: 90px;
+  font-family:'Ranchers', cursive;
 }
 
+.col-sm-8 h2{
+  font-family: 'Dosis', sans-serif;
+}
+
+.col-md-12 h6{
+  font-family: 'Dosis', sans-serif;
+}
+
+.container-fluid{
+  font-family: 'Ranchers', cursive;
+}
+
+.container h1{
+  font-family: 'Ranchers', cursive;
+}
+
+.container-fluid p{
+  font-family: 'Dosis', sans-serif;
+}
+
+.container-fluid h4{
+  font-family: 'Dosis', sans-serif;
+}
+
+.container h4{
+  font-family: 'Dosis', sans-serif;
+}
 
 .pic:hover{
   border: 5px solid rebeccapurple;
@@ -60,6 +88,7 @@ body{
 .col-sm-4 h1{
   margin-top: 30px;
   margin-bottom: 80px;
+  font-family: 'Ranchers', cursive;
 }
 
 .side{
