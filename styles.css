@@ -89,3 +89,8 @@ overflow:scroll;
 height:550px;
 width:100%;
 }
+
+th{
+  position:sticky;
+  top: 0;
+}
