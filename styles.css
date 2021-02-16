@@ -34,6 +34,7 @@ body{
   width: 100%;
   height: auto;
   margin-bottom: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
 .big_pic{
@@ -53,7 +54,7 @@ body{
 
 
 .pic:hover{
-  border: 5px solid rebeccapurple
+  border: 5px solid rebeccapurple;
 }
 
 .col-sm-4 h1{
@@ -81,4 +82,10 @@ body{
 
 .comp_pic:hover{
   border: 5px solid rebeccapurple
+}
+
+.divScroll{
+overflow:scroll;
+height:550px;
+width:100%;
 }
