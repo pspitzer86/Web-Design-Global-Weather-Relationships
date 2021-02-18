@@ -14,7 +14,22 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
+<!--#########################################################################
+Patrick Spitzer
+Web Design Challenge Homework
+
+The purpose of this project was to use plot images and data used in previous homework Weather API and to
+create a website around it.  The website needed a navbar with a dropdown for four of the plots
+and tabs to a comparison of those plots and a table fo the data used.  All pages needed to be responsive 
+to the re-sizing of a page.  CSS and Bootstrap styles were needed in this assignment.
+
+In collaboration with Kate Spitzer
+
+#############################################################################-->
+
 <body>
+
+    <!--Creation of working navbar with responsiveness to create hamburger.  Must be present on each page.-->
 
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="index.html"><h1><svg xmlns="http://www.w3.org/2000/svg" width="50" height="30" fill="currentColor" class="bi bi-lightning-fill" viewBox="0 0 16 16">
@@ -23,6 +38,9 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+  
+<!--Creation of the dropdown menu for the plots and other tabs-->
+
   <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item dropdown">
@@ -45,6 +63,8 @@
     </ul>
   </div>
 </nav>
+
+<!--Bootstrap container to hold cloudiness page plot image, clickable visualization plots, and a summary paragraph.-->
 
 <div class="container-fluid">
   <div class="row">
