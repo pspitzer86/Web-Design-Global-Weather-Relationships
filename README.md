@@ -24,3 +24,6 @@ Data page:
 The csv of the cities used in the previous homework needed to be run through a jupyter notebook in order to reorganize it and turn it into an html file for its page.  The Data page was to hold a table of the city data for the user to see.  The responsiveness of this page needed to allow the table to still be viewable in general even if the page was re-sized smaller.  This was done by coding scroll bars onto the table.
 
 All pages needed to have some way of linking to each other.
+
+![image](https://user-images.githubusercontent.com/65049133/121838481-cce54f80-cc8c-11eb-89cb-bec7eff8c8df.png)
+
