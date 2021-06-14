@@ -1,4 +1,4 @@
-# Web-Design-Challenge
+# Web-Design-Global-Weather-Relationships
 
 In collaboration with Kate Spitzer.
 
